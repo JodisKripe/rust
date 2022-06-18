@@ -18,4 +18,11 @@ fn main() {
         Err(_) => 0
     };
     println!("Value of element index {} is {}",index, arr[index]);
+    //Structs(?)
+    let x:u32=5;
+    let y:usize = {
+        let x = 7;
+        x+5
+    };
+    println!("Value of x: {} \nValue of y: {}",x,y);
 }
