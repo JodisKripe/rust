@@ -5,7 +5,7 @@ fn main() {
     let mut x2:u64 = 56;
     let x3:u64 = add_numbers(x1,x2);
     println!("{} {} {}",x3,x1,x2);
-    x2 = 55;
+    let x5 = x2;
     let x4:u64 = mul_numbers(x1,x5);
     println!("{x4} {x1} {x2}")
 }
